@@ -1,0 +1,67 @@
+# Packages needed to run the workshop notebooks OUTSIDE Google Colab.
+#
+# The workshop is designed to run in Colab, where most of these are already
+# installed. This file is a convenience for anyone who cannot use Colab.
+# It is NOT used by any workflow; the site build uses requirements.txt.
+#
+# Two things will still not work locally, and the affected cells must be skipped:
+#   1. `from google.colab import drive` / `drive.mount(...)` and
+#      `from google.colab import userdata` — these exist only inside Colab.
+#      Point ROOT at your own copy of the STI 2026 folder instead of
+#      /content/drive/MyDrive/STI 2026.
+#   2. `import pw_nowcasting_functions` — this helper module ships inside the
+#      STI 2026 folder, not on PyPI. Keep it next to the notebook.
+#
+# Tested target: Python 3.11 (the version Colab runs). Versions are left
+# unpinned to match how the notebooks install them; pin them if you need a
+# reproducible environment.
+
+# --- running notebooks ---
+jupyterlab
+ipywidgets
+
+# --- core data and plotting ---
+pandas
+numpy
+scipy
+matplotlib
+seaborn
+plotly
+tqdm
+requests
+
+# --- machine learning ---
+scikit-learn
+statsmodels
+imbalanced-learn
+shap
+pdpbox
+tensorflow          # provides keras, used by the nowcasting notebooks
+torch               # required by transformers
+
+# --- geospatial ---
+earthengine-api
+geemap
+geopandas
+shapely
+h3
+mapclassify
+mercantile
+overturemaps
+pillow
+
+# --- text analytics ---
+nltk
+gensim
+transformers
+sentence-transformers
+beautifulsoup4
+pysentiment2
+python-Levenshtein
+fasttext-numpy2
+sent2vec            # may need a compiler toolchain; skip if it fails to build
+
+# --- data sources and APIs ---
+google-api-python-client
+pycountry
+sdmx1

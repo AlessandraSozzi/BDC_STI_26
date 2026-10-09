@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Country borders or names do not necessarily reflect the IMF's official position. All maps are for illustrative purposes and do not imply the expression of any opinion on the part of the IMF, concerning the legal status of any country or territory or concerning the delimitation of frontiers or boundaries."
+title: "Big Data for Macroeconomic Statistics"
+authors:
+  - affiliation: IMF Big Data Center
+    family-names: IMF
+    given-names: Big Data Center
+keywords:
+  - Open Science
+repository-code: https://github.com/imfgit/imf_big_data_workshop_sti26/tree/main
+license: CC-BY-SA-3.0-IGO

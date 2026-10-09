@@ -1,0 +1,12 @@
+# This repository holds workshop materials, not an installable Python package.
+# Only linting and spell-checking configuration lives here; the hooks that read it
+# are defined in .pre-commit-config.yaml.
+# Dependencies for building the Jupyter Book site are in requirements.txt.
+
+[tool.codespell]
+skip = 'docs/_build,docs/bibliography.bib,*.png,*.gz,*.whl'
+ignore-regex = '^\s*"image\/png":\s.*'
+ignore-words-list = "gost,Nd"
+
+[tool.ruff.lint.pydocstyle]
+convention = "numpy"

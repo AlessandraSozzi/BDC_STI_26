@@ -1,0 +1,42 @@
+format: jb-book
+root: README
+
+parts:
+  - caption: Getting Started
+    numbered: True
+    chapters:
+      - file: notebooks/Google Colab Setup.ipynb
+      - file: notebooks/GEE Account Setup.ipynb
+      - file: notebooks/GEE Setup.ipynb
+  - caption: Satellite Data Fundamentals
+    numbered: True
+    chapters:
+      - file: notebooks/BDC_NTLs_Analysis.ipynb
+      - file: notebooks/BDC_Cropland_statistics_from_satellite_imageries.ipynb
+      - file: notebooks/BDC_Builtup_statistics_from_satellite_imageries.ipynb
+  - caption: GDP Nowcasting
+    numbered: True
+    chapters:
+      - file: notebooks/BDC_Data_Preprocessing_for_GDP_Nowcasting.ipynb
+      - file: notebooks/BDC_GDP_Nowcasting_ML_Workflow.ipynb
+      - file: notebooks/BDC_Data_Extract_Satellite_Data.ipynb
+      - file: notebooks/BDC_GoogleTrends_explore.ipynb
+      - file: notebooks/BDC_GoogleTrends_extract.ipynb
+  - caption: AIS and PortWatch
+    numbered: True
+    chapters:
+      - file: notebooks/BDC_Working_With_AIS_PortWatch.ipynb
+      - file: notebooks/BDC_Trade_Nowcasting_AIS_Portwatch.ipynb
+  - caption: Text Analytics
+    numbered: True
+    chapters:
+      - file: notebooks/BDC_NLP_Fundamentals.ipynb
+      - file: notebooks/BDC_Sentiment_Analysis.ipynb
+      - file: notebooks/BDC_Text_Classification.ipynb
+  - caption: Capstone Project
+    numbered: True
+    chapters:
+      - file: notebooks/BDC_Challenge_Buildings_Analysis.ipynb
+      - file: notebooks/BDC_Challenge_GDP_Nowcasting.ipynb
+      - file: notebooks/BDC_Challenge_Trade_Nowcasting.ipynb
+      

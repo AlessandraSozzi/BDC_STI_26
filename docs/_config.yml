@@ -1,0 +1,51 @@
+# Book settings
+title: 
+author: BDC
+logo: docs/images/logobdc.png
+only_build_toc_files: false
+
+repository:
+  url: https://github.com/imfgit/imf_big_data_workshop_sti26
+  branch: main
+  path_to_book: ""
+
+launch_buttons:
+  colab_url: "https://colab.research.google.com"
+
+#######################################################################################
+# HTML-specific settings
+html:
+  home_page_in_navbar: false
+  extra_navbar: ""
+  use_edit_page_button: true
+  use_repository_button: true
+  use_issues_button: true
+  baseurl: https://imfgit.github.io/imf_big_data_workshop_sti26
+  extra_footer: |
+    <div>
+     Country borders or names do not necessarily reflect the author or institution's official position. All maps are for illustrative purposes and do not imply the expression of any opinion on the part of the author or institution, concerning the legal status of any country or territory or concerning the delimitation of frontiers or boundaries
+    </div>
+    <div>
+        <b>All content (unless otherwise specified) is subject to the <a href="https://creativecommons.org/licenses/by-sa/3.0/igo/">CC BY-SA 3.0 IGO license.</a></b>
+    </div>
+    <div>
+        Reuse of this tool and IMF data does not imply any endorsement of the research and/or product. Any research presented should not be reported as representing the views of the IMF, its Executive Board, or member governments.
+    </div>
+  favicon: docs/images/favicon.png
+
+#######################################################################################
+# Execution settings
+execute:
+  execute_notebooks: off
+
+#######################################################################################
+# Bibliography settings
+bibtex_bibfiles:
+  - docs/bibliography.bib
+
+#######################################################################################
+# Sphinx settings
+sphinx:
+  config:
+    html_show_copyright: false
+    html_last_updated_fmt: "%b %d, %Y"

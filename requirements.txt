@@ -1,0 +1,8 @@
+# Dependencies for building the Jupyter Book site (see .github/workflows/gh-pages.yml).
+# The workshop notebooks run in Google Colab and install what they need at runtime,
+# so they do not depend on this file.
+
+# Pinned to 0.17.1 due to https://github.com/worldbank/template/issues/60
+# See also https://jupyterbook.org/en/stable/content/citations.html#citations-and-bibliographies
+docutils==0.17.1
+jupyter-book>=1,<2
