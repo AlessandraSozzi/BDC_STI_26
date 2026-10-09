@@ -17,9 +17,9 @@ parts:
   - caption: Working with Geospatial Data
     numbered: True
     chapters:
-      - file: notebooks/BDC_NTLs_Analysis.ipynb
       - file: notebooks/BDC_Cropland_statistics_from_satellite_imageries.ipynb
       - file: notebooks/BDC_Builtup_statistics_from_satellite_imageries.ipynb
+      - file: notebooks/BDC_NTLs_Analysis.ipynb
   - caption: AIS and PortWatch
     numbered: True
     chapters:
