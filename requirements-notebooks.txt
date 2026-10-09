@@ -7,10 +7,10 @@
 # Two things will still not work locally, and the affected cells must be skipped:
 #   1. `from google.colab import drive` / `drive.mount(...)` and
 #      `from google.colab import userdata` — these exist only inside Colab.
-#      Point ROOT at your own copy of the STI 2026 folder instead of
-#      /content/drive/MyDrive/STI 2026.
+#      Point ROOT at your own copy of the STI_2026 folder instead of
+#      /content/drive/MyDrive/STI_2026.
 #   2. `import pw_nowcasting_functions` — this helper module ships inside the
-#      STI 2026 folder, not on PyPI. Keep it next to the notebook.
+#      STI_2026 folder, not on PyPI. Keep it next to the notebook.
 #
 # Tested target: Python 3.11 (the version Colab runs). Versions are left
 # unpinned to match how the notebooks install them; pin them if you need a
