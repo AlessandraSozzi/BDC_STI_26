@@ -1,7 +1,7 @@
 # <span style="color:#004C97">Workshop on Big Data for Macroeconomic Statistics</span>
 ## <span style="color:#707372">*Singapore Regional Training Institute (STI) Edition, 2026*</span>
 
-📖 **Read the materials online:** <https://alessandrasozzi.github.io/BDC_STI_26>
+📖 **Read the materials online:** <https://alessandrasozzi.github.io/STI_2026>
 
 ## <span style="color:#004C97">**Background**</span>
 This repo houses the materials for **Big Data for Macroeconomic Statistics** (November 2–6, 2026), organized by the **IMF Big Data Center (BDC)** at the *Singapore Regional Training Institute (STI)* in Singapore.
@@ -27,7 +27,7 @@ All sessions run in **Google Colab**.
 Open a notebook from the navigation menu, use the 🚀 launch button at the top of the page to open it in Colab, then save your own copy (**File → Save a copy in Drive**) so that your edits and results are kept.
 
 ## <span style="color:#004C97">**Feedback and contact**</span>
-Found an error, or have a suggestion for improving these materials? Please [open an issue](https://github.com/AlessandraSozzi/BDC_STI_26/issues) on GitHub, or write to the IMF Big Data Center at <BigDataCenter@imf.org>.
+Found an error, or have a suggestion for improving these materials? Please [open an issue](https://github.com/AlessandraSozzi/STI_2026/issues) on GitHub, or write to the IMF Big Data Center at <BigDataCenter@imf.org>.
 
 ## <span style="color:#004C97">**License and citation**</span>
 All content is released under the [Creative Commons Attribution-ShareAlike 3.0 IGO (CC BY-SA 3.0 IGO)](LICENSE) license unless otherwise specified. To cite these materials, see [CITATION.cff](CITATION.cff).
