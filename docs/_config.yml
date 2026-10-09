@@ -5,7 +5,7 @@ logo: docs/images/logobdc.png
 only_build_toc_files: false
 
 repository:
-  url: https://github.com/imfgit/imf_big_data_workshop_sti26
+  url: https://github.com/AlessandraSozzi/BDC_STI_26
   branch: main
   path_to_book: ""
 
@@ -20,7 +20,7 @@ html:
   use_edit_page_button: true
   use_repository_button: true
   use_issues_button: true
-  baseurl: https://imfgit.github.io/imf_big_data_workshop_sti26
+  baseurl: https://alessandrasozzi.github.io/BDC_STI_26
   extra_footer: |
     <div>
      Country borders or names do not necessarily reflect the author or institution's official position. All maps are for illustrative purposes and do not imply the expression of any opinion on the part of the author or institution, concerning the legal status of any country or territory or concerning the delimitation of frontiers or boundaries
